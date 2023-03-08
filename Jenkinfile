@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git branch:'master',url:'https://github.com/Legnakra/Jenkins-Django.git'
+                git branch:'master',url:'https://github.com/Legnakra/Jenkins-Django'
             }
         }
         stage('Install') {
